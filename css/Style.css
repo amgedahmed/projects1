@@ -1,0 +1,126 @@
+
+/* General Codes */
+body { height:auto; overflow:hidden; font-family:Arial, Helvetica, sans-serif;}
+li { list-style:none; display:inline-block;}
+a { text-decoration:none; transition:all .5s ease-in-out;}
+a:hover, a:active { text-decoration:none;}
+.btn { transition:all .5s ease-in-out; font-weight:500; text-transform:uppercase;}
+.btn:hover { background-color:#ededed !important; color:#3c3c3c !important; border:1px solid #fff;}
+
+/* Start Navigation */
+.navbar { text-transform:uppercase; font-weight: bold;}
+.navbar a { color:#fff; opacity:.8;}
+.navbar a:hover { opacity:1;}
+/* End Navigation */
+
+/*Start Header */
+.Header { height:600px; width:100%; padding:30px 0 30px; margin-top:50px; background-image:url(../images/Header_2.jpg); background-position:center center; background-repeat:no-repeat; background-size:cover; color:#fff;}
+.Header img { height:350px; width:450px; padding:70px 0 0 40px;}
+.Header h1 { font-size:40px; font-weight: bold; padding-top:30px;}
+.Header h1, .Header p, .Header button { margin-top:20px;}
+.Header .btn { margin:40px 20px;}
+@media(max-width:768px){
+	.Header { padding:30px; height:750px;}
+	.Header img { width:90%; height:300px; margin:20px 0 0 20px;}
+	.Header .btn { font-size:10px; margin-left:20px;}
+	.Header h1 { font-size:20px;}
+	.Header p { font-size:10px;}
+	}
+/*End Header */
+
+/* Start Services */
+
+.Services h2 { color:#4c4c4c; text-align:center; margin:30px; padding-top:40px; text-transform:uppercase; font-weight: bold;}
+.Services p { font-size:14px; color:#737373; text-align:center; margin-bottom:30px; padding-bottom:20px;}
+.Services .box i { background-color:#3399ff; color:#fff; border:1px solid #ccc; width:100px; height:100px; line-height:100px; border-radius:50%; transition:all .5s ease-in-out; margin-bottom:15px;}
+.Services .box i:hover { color:#4c4c4c; background-color:#ededed; border:1px solid #fff;}
+.Services h4 { color:#4c4c4c; text-transform:uppercase; font-weight:400; font-weight: 400;}
+.Services .box p { padding-top:20px; line-height:20px;}
+@media(max-width:768px){
+	.Services { padding:10px; line-height:25px;}
+	.Services p { line-height:25px;}
+	}
+/* End Services */
+
+
+/* Start Pricing */
+
+.Pricing { background-color:#3399ff;  text-align:center;}
+.Pricing h2 { color:#fff; text-transform:uppercase; padding-top:70px; font-weight: bold;}
+.Pricing p { font-size:14px; color:#fff; padding-top:10px;}
+.Pricing .Packages { border:1px solid #ccc; background-color:#fff; padding:30px; border-radius:5px; margin-top:30px;}
+.Packages li { display:block; padding:5px;}
+.Packages h1, .packages b { color:#4c4c4c;}
+.Packages h1 { width:100px; height:100px; background:#f3f3f3; border-radius:50%; line-height:100px; margin-left:55px; transition-duration:.7s;}
+.Packages:hover h1 { transform:scale(1.1,1.1)rotate(360deg);}
+.Packages h4 { text-transform:uppercase; font-weight: 500;}
+.Packages p, .Packages li { color:#737373;}
+.Packages button { margin-top:10px;}
+
+@media(max-width:768px){
+	.Pricing { padding:30px;}
+	.Packages { width:80%; margin-left:25px;}
+	.Packages h1 { margin-left:35px;}
+	}
+
+/* End Pricing */
+
+/* Start Team */
+
+.Team { text-align:center;}
+.Team h2 { color:#4c4c4c; text-transform:uppercase; padding-top:70px; font-weight: bold;}
+.Team p { font-size:14px; color:#373737; padding-top:10px; line-height:23px;}
+.Team img { width:150px; height:150px; margin-top:70px; opacity:.4; transition:all .5s ease-in-out;}
+.Team img:hover { opacity:1; border:1px solid #ccc; transform:scale(1.1,1.1)rotate(360deg);}
+.Team h4, .Team b { text-transform:uppercase; color:#4c4c4c; font-weight: 500; padding:10px;}
+.Team i { width:30px; height:30px; font-size:17px; border-radius:50%; line-height:30px; background-color:#a0db8e; color:#fff; transition:all .5s ease-in-out;}
+.Team i:hover { background-color:#709963;}
+
+/* End Team */
+
+/* Start Client */
+
+.Client { margin-top:70px; background-color:#3399ff; text-align:center;}
+.Client h2 { color:#fff !important;}
+.Client p { padding-bottom:40px; color:#fff !important;}
+.Client img { width:200px; opacity:.6; cursor:pointer; transition:all .5s ease-in-out; margin-bottom:40px;}
+.Client .air { margin-top:40px ;}
+.Client .kick { margin-top:60px ;}
+.Client .uber { margin-top:60px ;}
+.Client img:hover { opacity:1;}
+
+/* End Client */
+
+
+/* Start Contact */
+
+.Contact { text-align:center;}
+.Contact h2 { color:#4c4c4c; text-transform:uppercase; padding-top:70px; font-weight: bold;}
+.Contact p { font-size:14px; color:#373737; padding-top:10px; margin-bottom:50px;}
+.Contact .input-group { margin-bottom:25px;}
+.Contact .form-control { border-radius:0 !important;}
+.Contact span { border-radius:0 !important;}
+.Contact .sub { border-radius:0; width:100%; font-size:15px; background-color:#f08080; color:#fff; margin-bottom:70px;}
+.Contact .sub:hover { background-color:#a85959 !important; color:#fff !important;}
+
+/* End Contact */
+
+/* Start Footer */
+
+.Footer { color:#cccccc; background-color:#222222; padding:30px;}
+.Footer .social { font-size:20px; width:10%; height:30px; text-align:center; padding:5px; border:1px solid #cccccc; margin-bottom:10px; margin-left:5px;}
+.Footer h4 { font-weight: 600; text-transform:uppercase;}
+.Footer h4, .Footer p { color:#fff; padding:5px; margin:0; text-align:justify;}
+.Footer input { width:180px; height:40px; padding:5px; border:none; background-color:#ccc; color:#000;}
+.Footer .btn { padding:10px 5px 10px; margin:-3px 0 0 5px;}
+.Footer .s_social h4 { text-align:center !important; margin-bottom:5px;}
+.Footer .s_social input { margin-left:0;}
+
+/* End Footer */
+
+
+/* Start ScrollUp */
+
+.ScrollUp { width:60px; height:50px; color:#fff; background-color:#272727; text-align:center; position:fixed; right:15px; bottom:10px; border-radius:50%; padding-top:10px; display:none;}
+.ScrollUp:hover { background-color:#444; cursor:pointer;}
+/* End ScrollUp */
